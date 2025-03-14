@@ -55,13 +55,3 @@ try:
     print(structured_response)
 except Exception as e:
     print("Error while parsing response", e, "raw_response:", raw_response)
-
-
-
-# try{
-#     const structured_response = parser.parse(raw_response.get("output")[0]["text"])
-#     console.log(structured_response)
-# }
-# catch(err){
-#     throw new Error(`Error while parsing response: ${err} raw_response: ${raw_response}`)
-# }
