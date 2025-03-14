@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+env/
+.env/
+
+# Python bytecode files
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# .env file with sensitive credentials
+.env
+
+# Editor/IDE files (Optional, for common IDEs)
+.vscode/
+.idea/
+
+# Operating system-specific files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
