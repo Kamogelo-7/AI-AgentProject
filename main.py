@@ -15,7 +15,7 @@ load_dotenv()
 
 class ResearchResponse(BaseModel):
     topic: str
-    sammary: str
+    summary: str
     sources: list[str]
     tools_used: list[str]
 
